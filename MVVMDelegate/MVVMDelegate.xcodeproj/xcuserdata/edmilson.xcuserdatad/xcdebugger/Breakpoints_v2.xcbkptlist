@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D0CF2B0B-B067-4D47-B79A-98A94891A4C1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F984E25-5BF9-4E2B-9D18-AE19F5698210"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVVMDelegate/UsersViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "UsersViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "0F984E25-5BF9-4E2B-9D18-AE19F5698210 - aad2a9eda7622fa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDelegate.UsersViewController.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "MVVMDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/MVVMDelegate/MVVMDelegate/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "0F984E25-5BF9-4E2B-9D18-AE19F5698210 - 4ed18a9e8080fbab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDelegate.UsersViewController.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "MVVMDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/MVVMDelegate/MVVMDelegate/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "0F984E25-5BF9-4E2B-9D18-AE19F5698210 - b7fee70d5636c55a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDelegate.UsersViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "MVVMDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/MVVMDelegate/MVVMDelegate/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "0F984E25-5BF9-4E2B-9D18-AE19F5698210 - 636ca2767b7dc19c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDelegate.UsersViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MVVMDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/MVVMDelegate/MVVMDelegate/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "0F984E25-5BF9-4E2B-9D18-AE19F5698210 - 5a2cc5b6a3538c0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDelegate.UsersViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MVVMDelegate.UsersViewController"
+                  moduleName = "MVVMDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/MVVMDelegate/MVVMDelegate/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "234">
+               </Location>
+               <Location
+                  uuid = "0F984E25-5BF9-4E2B-9D18-AE19F5698210 - e1e3ef9fc9729921"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MVVMDelegate.UsersViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MVVMDelegate.UsersViewController&gt;"
+                  moduleName = "MVVMDelegate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edmilson/MVVMDelegate/MVVMDelegate/UsersViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "175">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
