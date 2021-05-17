@@ -1,0 +1,43 @@
+
+tutorial:
+https://stevenpcurtis.medium.com/mvvm-in-swift-19ba3f87ed45
+https://github.com/stevencurtis/SimpleMVVMMostBasic/blob/master/SimpleMVVMMostBasic/ViewModel/BreachViewModel.swift
+
+
+
+Vinculação: o mapeamento de uma coisa para outra
+
+Modelo: onde os dados e a lógica que os manipula são armazenados. Talvez objetos de modelo ou código de rede sejam armazenados aqui. Pense nisso como o que do aplicativo.
+Visualização: apresenta informações ao usuário. As visualizações são, bem, UIViews e suas subclasses. Pense nisso como os componentes da IU que devem ser controlados pelo controlador.
+ViewModel: contém campos que devem ser exibidos na visualização.
+
+
+
+O MVVM é considerado adequado quando você precisa transformar modelos em outra representação para uma visualização e diminui os controladores de visualização que requerem várias transformações de modelo para visualização. MVVM melhora a propensão do código a ser testado, particularmente por meio de testes de unidade.
+No entanto, o MVVM pode ser complicado porque pode ser difícil projetar o ViewModel antecipadamente para maximizar a capacidade de reutilização e, claro, isso significa que temos mais arquivos para lidar.
+
+
+
+view:
+Apresentar os componentes da IU
+Vincule os componentes da IU com o ViewModel
+ViewModel
+Lidar com o tratamento de erros e paginação
+Fornece interfaces para a vista
+Escreva lógica de apresentação
+Modelo
+Dados de negócios + lógica de negócios + regras de negócios
+
+
+ propriedades Ver controlador
+ Cria o viewModel (possivelmente com os dados do modelo inicial) e configura ligações (ou seja, fechamentos) para que o controlador de visualização seja informado das mudanças que ocorrem no viewModel
+ Ver modelo
+ Executa solicitações e informa o controlador de visualização sobre as mudanças
+ Deve ser independente do UIKit
+ Normalmente formata os dados para serem formatados para o controlador de visualização
+ Modelo
+ Um modelo de dados típico
+ 
+ Objetivo :A implementação mais básica do MVVM é exibir algumas informações estáticas em uma visualização. Para fazer isso, precisamos ter certeza de que configuramos a visão, o controlador da visão, o modelo de visão e o modelo corretamente.
+ O código simplesmente exibe um trecho de texto em um rótulo.
+
