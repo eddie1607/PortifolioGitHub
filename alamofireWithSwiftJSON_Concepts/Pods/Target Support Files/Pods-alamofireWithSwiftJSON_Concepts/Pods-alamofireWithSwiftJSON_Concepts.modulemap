@@ -1,0 +1,6 @@
+framework module Pods_alamofireWithSwiftJSON_Concepts {
+  umbrella header "Pods-alamofireWithSwiftJSON_Concepts-umbrella.h"
+
+  export *
+  module * { export * }
+}
