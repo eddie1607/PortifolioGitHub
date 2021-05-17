@@ -1,0 +1,17 @@
+ao aplicar esse padrao no desenvolvimento iOS busca-se:
+remover o trabalho de navegacao
+tornar os aplicativos mais  gerenciaveis,testaveis e reutilizaveis
+ajustat o fluxo sempre que precisarmos
+
+objetivo desacoplar  os controladores de visualizacao
+
+Existem três etapas que desejo abordar para lhe dar uma boa base com os coordenadores:
+
+Projetando dois protocolos:
+1 - um que será usado por todos os nossos coordenadores e outro para tornar mais fácil a criação de nossos controladores de visualização.
+2 -Criar um coordenador principal que controlará o fluxo de nosso aplicativo e, em seguida, iniciá-lo quando nosso aplicativo for iniciado.
+
+3 -Apresentando outros controladores de visualização
+
+ Propriedades:
+a comunicacao entre controladore usa protocols
