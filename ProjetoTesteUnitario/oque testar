@@ -1,0 +1,17 @@
+
+ testar a model do aplicativo e métodos assíncronos, como fazer simulações de interações com bibliotecas ou objetos usando mocks
+ 
+ 
+Antes de escrever qualquer teste, é importante começar com o básico: o que você precisa testar? Se o seu objetivo é aumentar um aplicativo que já existe, você deveria escrever para qualquer componente que você deseja criar ou modificar.
+Geralmente, os testes devem cobrir:
+O core do app: Classes Model e métodos, e suas interações com a controller.
+Os fluxos mais comuns de UI
+Condições principais
+Correção de erros
+Primeiras coisas FIRST(primeiro): Melhores práticas para testes
+A palavra FIRST é acrônimo que descreve importantes critérios para um teste unitário efetivo. Estes critérios são:
+Fast(Rápido): os testes devem rodar rapidamente, caso contrários as pessoas não vão executá-los.
+Independent/Isolates(Independentes/Isolados): testes não devem fazer setup ou teardown para outro.
+Repeatable(Repetível): você deve obter os mesmos resultados toda vez que os testes forem executados. Problemas com API e concorrências podem causar falhas intermitentes.
+Self-validating(auto-validáveis): Testes devem ser completamente automatizados; o resultado de cada teste deve ser "passou" ou "falhou", para que não haja necessidade do programador interpretar algum log.
+Timely(Preventivos): Idealmente, os testes devem ser escritos antes do código que será testado (TDD — Desenvolvimento guiado a teste, primeiro o teste depois o código).
